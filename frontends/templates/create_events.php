@@ -2,11 +2,58 @@
 <html>
 <head>
 	<title>Lovents | Your Personal Assistant Events Creator</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
+<div class="header">
+	<div class="container-fluid">
+		<div class="logo">
+			<h1 style="color: white;">Lovents</h1>
+		</div>
+		<div class="nav large-nav-only">
+			<ul class="navbar">
+				<li><a href="">Home</a></li>
+				<li><a href="">Create</a></li>
+				<li><a href="">Login</a></li>
+				<li><a href="">Register</a></li>
+			</ul>
+		</div>
+		<div class="nav mobile-nav small-nav-only dropdown" style="display: none;">
+			<a class="dropdown-toggle" class="btn btn-info" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="overflow: hidden;"><i class="fa fa-align-justify"></i></a>
+			<ul class="navbar dropdown-menu">
+				<li><a href="">Home</a></li>
+				<li><a href="">Create</a></li>
+				<li><a href="">Login</a></li>
+				<li><a href="">Register</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="content-wrapper">
+	<div class="container">
+		<div class="create_event_wrapper">
+			<label for="event_name">Event Name</label>
+			<input type="email" name="" class="lovents_input" id="event_name">
+			<label for="short_description">Short Description</label>
+			<input type="text" name="" class="lovents_input" id="short_description">
+			<label for="description">Description</label>
+			<input type="email" name="" class="lovents_input" id="description">
+			<label for="phone">Phone</label>
+			<input type="text" name="" id="phone" class="lovents_input">
+			<label for="city">City</label>
+			<input type="text" name="" id="city" class="lovents_input">
+			<label for="country">Country</label>
+			<input type="text" name="" id="country" class="lovents_input">
+			<label for="password">Password</label>
+			<input type="password" name="" class="lovents_input" id="password">
+			<label for="cpassword">Confirm Password</label>
+			<input type="password" name="" class="lovents_input" id="cpassword">
+			<input type="submit" name="" class="btn btn-danger" value="Create Account">
+		</div>
+	</div>
+</div>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
