@@ -33,12 +33,14 @@
 </div>
 <div class="content-wrapper">
 	<div class="container">
-		<div class="login-registration-wrapper">
-			<form>
-				<label for="email">Email</label>
-				<input type="email" name="" class="lovents_input" id="email">
+		<div class="login-registration-wrapper col-md-8">
+			<form class="form-group">
+				<div class="input-group">
+                    <span class="input-group-addon fa fa-envelope-o"></span>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Enter email" required="" />
+                </div>
 				<label for="password">Password</label>
-				<input type="" name="" class="lovents_input" id="password">
+				<input type="" name="password" class="form-control" id="password">
 				<input type="submit" name="" class="btn btn-danger" value="Login">
 			</form>
 		</div>

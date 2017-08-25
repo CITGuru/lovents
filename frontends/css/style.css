@@ -24,7 +24,6 @@ body {
 	background: #ea4335;
 	height: 70px;
 	width: 100%;
-	display: block;
     z-index: 999999;
     box-shadow: 1px 2px 1px rgba(0,0,0,.2)
 }
@@ -77,7 +76,7 @@ float: right;
 	}
 }
 
-input.lovents_input {
+/*input.form-control {
 	width: 200px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -85,12 +84,24 @@ input.lovents_input {
 	border-bottom: 1px solid #03a9f4;
 	outline: none;
 	display: block;
-}
+}*/
 
 .login-registration-wrapper {
-	padding-top: 20%;
+	padding-top: 10%;
+
 }
 
 .create_event_wrapper {
 	padding-top: 100px;
+}
+
+.input-group-addon {
+    border-color: #1b1e24;
+    background-color: #1b1e24;
+    font-size: 13px;
+    padding: 0px 10px;
+    line-height: 28px;
+    color: #FFF;
+    text-align: center;
+    min-width: 36px;
 }

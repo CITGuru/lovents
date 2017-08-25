@@ -36,22 +36,22 @@
 		<div class="login-registration-wrapper">
 			<form>
 				<label for="first_name">First Name</label>
-				<input type="email" name="" class="lovents_input" id="first_name">
+				<input type="text" name="first_name" class="form-control" id="first_name">
 				<label for="last_name">Last Name</label>
-				<input type="text" name="" class="lovents_input" id="last_name">
+				<input type="text" name="last_name" class="form-control" id="last_name">
 				<label for="email">Email</label>
-				<input type="email" name="" class="lovents_input" id="email">
+				<input type="email" name="email" class="form-control" id="email">
 				<label for="phone">Phone</label>
-				<input type="text" name="" id="phone" class="lovents_input">
+				<input type="text" name="phone" id="phone" class="form-control">
 				<label for="city">City</label>
-				<input type="text" name="" id="city" class="lovents_input">
+				<input type="text" name="city" id="city" class="form-control">
 				<label for="country">Country</label>
-				<input type="text" name="" id="country" class="lovents_input">
+				<input type="text" name="country" id="country" class="form-control">
 				<label for="password">Password</label>
-				<input type="password" name="" class="lovents_input" id="password">
+				<input type="password" name="password" class="form-control" id="password">
 				<label for="cpassword">Confirm Password</label>
-				<input type="password" name="" class="lovents_input" id="cpassword">
-				<input type="submit" name="" class="btn btn-danger" value="Create Account">
+				<input type="password" name="cpassword" class="form-control" id="cpassword">
+				<input type="submit" name="submit" class="btn btn-danger" value="Create Account">
 			</form>
 		</div>
 	</div>

@@ -35,23 +35,52 @@
 	<div class="container">
 		<div class="create_event_wrapper">
 			<label for="event_name">Event Name</label>
-			<input type="email" name="" class="lovents_input" id="event_name">
-			<label for="short_description">Short Description</label>
-			<input type="text" name="" class="lovents_input" id="short_description">
+			<input type="text" name="event_name" class="form-control" id="event_name">
+			<input type="hidden" name="short_desc" class="form-control" id="short_desc">
 			<label for="description">Description</label>
-			<input type="email" name="" class="lovents_input" id="description">
-			<label for="phone">Phone</label>
-			<input type="text" name="" id="phone" class="lovents_input">
+			<textarea class="form-control" id=""></textarea>
+			<input type="hidden" name="description" class="form-control" id="description">
+			<label for="venue">Venue's name</label>
+			<input type="text" name="venue" id="venue" class="form-control">
+			<label for="address">Address</label>
+			<input type="text" name="address" id="address" class="form-control">
 			<label for="city">City</label>
-			<input type="text" name="" id="city" class="lovents_input">
+			<input type="text" name="city" id="city" class="form-control">
+			<label for="state">State</label>
+			<input type="text" name="state" id="state" class="form-control">
+			<label for="postal">Postal Code</label>
+			<input type="text" name="postal" id="postal" class="form-control">
 			<label for="country">Country</label>
-			<input type="text" name="" id="country" class="lovents_input">
-			<label for="password">Password</label>
-			<input type="password" name="" class="lovents_input" id="password">
-			<label for="cpassword">Confirm Password</label>
-			<input type="password" name="" class="lovents_input" id="cpassword">
-			<input type="submit" name="" class="btn btn-danger" value="Create Account">
-		</div>
+			<input type="text" name="country" id="country" class="form-control">
+			<label for="start_date">Start Date</label>
+			<input type="date" name="start_date" class="form-control" id="start_date">
+			<label for="start_time">Start Time</label>
+			<input type="time" name="start_time" class="form-control" id="start_time">
+			<label for="start_date">End Date</label>
+			<input type="date" name="start_date" class="form-control" id="start_date">
+			<label for="start_time">End Time</label>
+			<input type="time" name="start_time" class="form-control" id="start_time">
+			<label for="paid_tickets">Paid Ticket</label>
+			<input type="checkbox" name="" class="form-control" id="paid_tickets">
+			<label for="free">Free</label>
+			<input type="checkbox" name="" class="form-control" id="free">
+			<div class="event-image col-md-6" style="background-color: whitesmoke;display: block;">
+				<input type="file" name="picture" class="form-control" value="upload event image">
+			</div>
+			<label for="tickets_name">Ticket Name</label>
+			<input type="text" name="tickets_name" class="form-control" id="tickets_name">
+			<label for="tickets_no">Ticket No</label>
+			<input type="text" name="tickets_no" class="form-control" id="tickets_no">
+			<label for="tickets_name">Ticket Name</label>
+			<input type="text" name="tickets_name" class="form-control" id="tickets_name">
+			<label for="tickets_no">Ticket No</label>
+			<input type="text" name="tickets_no" class="form-control" id="tickets_no">
+			<label for="event_categories">Event Categories</label>
+			<input type="text" name="event_categories" class="form-control" id="event_categories">
+			<label for="">Ticket No</label>
+			<input type="text" name="tickets_no" class="form-control" id="tickets_no">
+			<input type="submit" name="" class="btn btn-danger" value="Create Event">
+		</div> 
 	</div>
 </div>
 
